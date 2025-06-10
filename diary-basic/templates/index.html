@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>자동 일기 요약</title>
+</head>
+<body>
+    <h1>자동 일기 요약 프로그램</h1>
+    <form action="/diary" method="post">
+        <label>감정:</label><br>
+        <input type="text" name="mood" required><br><br>
+        <label>사건:</label><br>
+        <textarea name="event" required></textarea><br><br>
+        <label>감사:</label><br>
+        <textarea name="gratitude" required></textarea><br><br>
+        <input type="submit" value="요약 생성">
+    </form>
+</body>
+</html>
